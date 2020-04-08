@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:complexType name="ProductType">
+        <xsd:sequence>
+            <xsd:element name="ProductId" type="xsd:int"></xsd:element>
+            <xsd:element name="ProductDescription" type="xsd:string"></xsd:element>
+            <xsd:element name="ProductPrice" type="xsd:float"></xsd:element>
+            <xsd:element name="ProductAmount" type="xsd:int"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+     <xsd:complexType name="ProductsType">
+        <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+            <xsd:element name="Product" type="ProductType"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:element name="Products" type="ProductsType"/>
+</xsd:schema>

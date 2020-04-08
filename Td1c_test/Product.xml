@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="http://eexposit.perso.univ-pau.fr/content/xsd/Product.xsd">
+    <Product>
+        <ProductId>1</ProductId>
+        <ProductDescription>smartphone</ProductDescription>
+        <ProductPrice>500.00</ProductPrice>
+        <ProductAmount>10</ProductAmount>
+    </Product>
+    <Product>
+        <ProductId>2</ProductId>
+        <ProductDescription>computer</ProductDescription>
+        <ProductPrice>1200.00</ProductPrice>
+        <ProductAmount>5</ProductAmount>
+    </Product>
+</Products>
